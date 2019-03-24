@@ -1,0 +1,25 @@
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+.navi{
+	width: 100%;
+    background: yellow;
+    height: 50px;
+    border-right: none;
+}
+.brand{
+	margin: 5px;
+	padding: 6px;
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 20.744680851064%; /*234px / 1128px */
+    float: left;
+
+	background-color: green;
+}
+body{
+	margin: 0;
+}	
