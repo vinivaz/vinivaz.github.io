@@ -1,20 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-  <title>Loja</title>
-  
-  <link rel="stylesheet" href="swiper/css/swiper.min.css">
-<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper.min.css">
 
-  
+  <link rel='stylesheet' href='bootstrap/css/bootstrap.css'>
+<link rel="stylesheet" href="css/style.css">
+
+  <!-- Demo styles -->
+  <style>
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      
+    }
+    
+    .append-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .append-buttons a {
+      display: inline-block;
+      border: 1px solid #007aff;
+      color: #007aff;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 0 10px;
+      font-size: 13px;
+    }
+  </style>
 </head>
-
-<body style="background-color: #F8F8F8">
-
+<body>
   <nav class="navbar navbar-expand-lg navbar-dark mb-4 bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Mstore</a>
@@ -53,13 +80,11 @@
       </div>
   </div>  
 </nav>
-
-
-<div class="container">
-<div class="swiper-container">
+  <!-- Swiper -->
+  <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><div class="card shadow-sm mb-5 bg-white rounded" >
-              <img class="card-img-top" src="img/Iphone xr.jpg" alt="...">
+              <img class="card-img-top" src="Iphone xr.jpg" alt="...">
               <div class="card-body ">
                 <h5 class="card-title mt-0">Produto</h5>
                 <p class="card-text text-black-50">Some quick example text to build on ...</p>
@@ -67,7 +92,7 @@
               </div>
           </div></div>
       <div class="swiper-slide"><div class="card shadow-sm mb-5 bg-white rounded" >
-              <img class="card-img-top" src="img/Iphone xr.jpg" alt="...">
+              <img class="card-img-top" src="Iphone xr.jpg" alt="...">
               <div class="card-body ">
                 <h5 class="card-title mt-0">Produto</h5>
                 <p class="card-text text-black-50">Some quick example text to build on ...</p>
@@ -75,7 +100,7 @@
               </div>
           </div></div>
       <div class="swiper-slide"><div class="card shadow-sm mb-5 bg-white rounded" >
-              <img class="card-img-top" src="img/Iphone xr.jpg" alt="...">
+              <img class="card-img-top" src="Iphone xr.jpg" alt="...">
               <div class="card-body ">
                 <h5 class="card-title mt-0">Produto</h5>
                 <p class="card-text text-black-50">Some quick example text to build on ...</p>
@@ -83,7 +108,7 @@
               </div>
           </div></div>
           <div class="swiper-slide"><div class="card shadow-sm mb-5 bg-white rounded" >
-              <img class="card-img-top" src="img/Iphone xr.jpg" alt="...">
+              <img class="card-img-top" src="Iphone xr.jpg" alt="...">
               <div class="card-body ">
                 <h5 class="card-title mt-0">Produto</h5>
                 <p class="card-text text-black-50">Some quick example text to build on ...</p>
@@ -91,7 +116,7 @@
               </div>
           </div></div>
           <div class="swiper-slide"><div class="card shadow-sm mb-5 bg-white rounded" >
-              <img class="card-img-top" src="img/Iphone xr.jpg" alt="...">
+              <img class="card-img-top" src="Iphone xr.jpg" alt="...">
               <div class="card-body ">
                 <h5 class="card-title mt-0">Produto</h5>
                 <p class="card-text text-black-50">Some quick example text to build on ...</p>
@@ -99,15 +124,7 @@
               </div>
           </div></div>
       <div class="swiper-slide"><div class="card shadow-sm mb-5 bg-white rounded" >
-              <img class="card-img-top" src="img/Iphone xr.jpg" alt="...">
-              <div class="card-body ">
-                <h5 class="card-title mt-0">Produto</h5>
-                <p class="card-text text-black-50">Some quick example text to build on ...</p>
-                <button class="btn  btn-success">R$20.00</button>
-              </div>
-          </div></div>
-          <div class="swiper-slide"><div class="card shadow-sm mb-5 bg-white rounded" >
-              <img class="card-img-top" src="img/Iphone xr.jpg" alt="...">
+              <img class="card-img-top" src="Iphone xr.jpg" alt="...">
               <div class="card-body ">
                 <h5 class="card-title mt-0">Produto</h5>
                 <p class="card-text text-black-50">Some quick example text to build on ...</p>
@@ -121,37 +138,32 @@
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
   </div>
-	    	</div>
+  
 
-
-
-
-
-<div class="container my-5">
-  <footer class="mt-5 pt-5 border-top "></footer>
-  <div class="row">
-    <div class="col">&copy; 2019 - 2019</div>
-    <div class="col">
-      <h5>Sobre</h5>
-      <ul class="list-unstyled small-text">
-        <li>
-          <a class="text-muted" href="https://www.instagram.com/vnicius_v4z/?hl=pt-br"><i class="fab fa-instagram"></i> Instagram</a>
-        </li>
-        <li>
-          <a class="text-muted" href="#"><i class="fab fa-facebook-square"></i> Instagram</a>
-        </li>
-        <li>
-          <a class="text-muted" href="#">Gmail</a>
-        </li>
-        <li>
-          <a class="text-muted" href="#">Experiências</a>
-        </li>
-      </ul>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
     </div>
-  </div>  
-</div>
-<script src="swiper.min.js"></script>
-<script>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <p class="append-buttons">
+    <a href="#" class="prepend-2-slides">Prepend 2 Slides</a>
+    <a href="#" class="prepend-slide">Prepend Slide</a>
+    <a href="#" class="append-slide">Append Slide</a>
+    <a href="#" class="append-2-slides">Append 2 Slides</a>
+  </p>
+  <!-- Swiper JS -->
+  <script src="swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
     var appendNumber = 4;
     var prependNumber = 1;
     var swiper = new Swiper('.swiper-container', {
@@ -190,12 +202,11 @@
         ]);
     });
   </script>
-<script src='bootstrap/jquery-3.3.1.slim.min.js'></script>
+  <script src='bootstrap/jquery-3.3.1.slim.min.js'></script>
 <script src='bootstrap/js/bootstrap.min.js'></script>
 
   
 <script defer src="bootstrap/fontawesome/brands.js"></script>
 <script defer src="bootstrap/fontawesome/fontawesome.js"></script>
-
 </body>
 </html>
