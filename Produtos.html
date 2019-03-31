@@ -332,7 +332,7 @@
 
 	var width = $(window).width();
 
-	 if(width <= 360){
+	 if(width < 500){
      var swiper = new Swiper('.swiper-container', {
         slidesPerView: 2,
         spaceBetween: 15,
@@ -351,10 +351,10 @@
       
     }
 
-    else if(width > 360 && width < 650){
+    else if(width >= 500 && width < 650){
      
       var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 3,
+        slidesPerView:3,
         spaceBetween: 15,
         slidesPerGroup: 3,
         loop: false,
