@@ -329,25 +329,14 @@
 <script src='bootstrap/jquery-3.3.1.slim.min.js'></script>
 <script src="swiper.min.js"></script>
 <script>
-    $(function(){
-      $(window).resize();
-  // Bind the resize event. When the window size changes, update its corresponding
-  // info div.
-  $(window).resize(function(){
-    var elem = $(this);
-    var width = elem.width();
 
-    
-    // Update the info div width and height - replace this with your own code
-    // to do something useful!
-    $('#window-info').text( 'window width: ' + width );
+	var width = $(window).width();
 
-
-      if(width <= 360){
+	 if(width <= 360){
      var swiper = new Swiper('.swiper-container', {
         slidesPerView: 2,
         spaceBetween: 15,
-        slidesPerGroup: 1,
+        slidesPerGroup: 2,
         loop: false,
         loopFillGroupWithBlank: true,
         pagination: {
@@ -367,7 +356,7 @@
       var swiper = new Swiper('.swiper-container', {
         slidesPerView: 3,
         spaceBetween: 15,
-        slidesPerGroup: 2,
+        slidesPerGroup: 3,
         loop: false,
         loopFillGroupWithBlank: true,
         pagination: {
@@ -418,12 +407,24 @@
         },
       });
     }
+    $(function(){
+
+     
+
+
+  // Bind the resize event. When the window size changes, update its corresponding
+  // info div.
+  $(window).resize(function(){
+   
+  	 location.reload();
+     
 
 
   });
   
-  $(window).resize();
+  
 });</script>
+
 
 <script src='bootstrap/js/bootstrap.min.js'></script>
 
